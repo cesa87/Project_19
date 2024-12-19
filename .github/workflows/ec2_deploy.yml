@@ -28,4 +28,4 @@ jobs:
           key: ${{ secrets.EC2_KEY }}
           port: 22
           script: |
-            sudo systemctl restart apache2
+            sudo service apache2 restart
