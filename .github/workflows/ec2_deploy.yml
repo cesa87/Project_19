@@ -2,8 +2,7 @@ name: Push to EC2
 
 on: push
 
-permissions:
-  contents: write
+permissions: write-all
 
 jobs:
   push:
