@@ -18,6 +18,20 @@ body, html {
     margin-bottom: 20px;
 }
 
+.logo-container {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .auth-container {
     display: flex;
     flex-direction: column;
