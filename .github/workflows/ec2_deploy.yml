@@ -23,10 +23,9 @@ jobs:
       - name: Restart Apache
         uses: appleboy/ssh-action@master
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.EC2_KEY }}
         with:
           host: "ec2-34-213-48-149.us-west-2.compute.amazonaws.com"
           username: "ubuntu"
-          password: ""
           script: |
             sudo service apache2 restart
