@@ -23,7 +23,7 @@ jobs:
       - name: Restart Apache
         uses: appleboy/ssh-action@master
         with:
-          host: "ec2-34-213-48-149.us-west-2.compute.amazonaws.com"
+          host: "16.170.173.195"
           username: "ubuntu"
           key: ${{ secrets.EC2_KEY }}
           port: 22
