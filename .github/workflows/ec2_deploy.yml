@@ -1,9 +1,8 @@
 name: Push-to-EC2
 
-on:
-  push:
-    branches:
-      - master
+on: [fork]
+
+permissions: write-all
 
 jobs:
   deploy:
