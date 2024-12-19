@@ -20,11 +20,12 @@ jobs:
           REMOTE_USER: "ubuntu"
           TARGET: "/var/www/html"
 
-      - name: restart Apache
+      - name: Restart Apache
         uses: appleboy/ssh-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
         with:
           host: "ec2-34-213-48-149.us-west-2.compute.amazonaws.com"
           username: "ubuntu"
-          key: ${{ secrets.EC2_SSH_KEY }}
-          script:
-            sudo systemctl restart apache2
+          script: |
+            sudo service apache2 restart
