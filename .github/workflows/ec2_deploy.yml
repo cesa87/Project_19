@@ -5,7 +5,8 @@ on: push
 jobs:
   push:
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout the files
