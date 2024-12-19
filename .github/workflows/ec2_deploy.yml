@@ -2,7 +2,7 @@ name: Push to EC2
 
 on: push
 
-permissions: write-all
+permissions: read-all|write-all
 
 jobs:
   push:
