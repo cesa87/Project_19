@@ -24,7 +24,7 @@ body, html {
   border: 1px solid #ccc;
   padding: 10px;
   text-align: center;
-  align-item: center;
+  justify-content: center;
 }
 
 .logo-container img {
