@@ -4,7 +4,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 // Database connection
-$conn = new mysqli("your_host", "your_username", "your_password", "your_dbname");
+$conn = new mysqli("localhost", "crynk", "Blazer4053", "crynk");
 
 // Check connection
 if ($conn->connect_error) {
