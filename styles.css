@@ -69,3 +69,46 @@ body, html {
 .form-container button:hover {
     background-color: #0056b3;
 }
+
+.waitlist-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.waitlist-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.waitlist-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#waitlist-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#waitlist-form input, #waitlist-form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#waitlist-form button {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#waitlist-form button:hover {
+    background-color: #3e8e41;
+}
