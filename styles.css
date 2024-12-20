@@ -75,12 +75,15 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 200px;
+    width: 300px;
     height: auto;
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .waitlist-container h2 {
@@ -97,11 +100,11 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 #waitlist-form input, #waitlist-form textarea {
     width: 100%;
-    max-width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -110,7 +113,6 @@ body, html {
 
 #waitlist-form button {
     width: 100%;
-    max-width: 100%;
     padding: 10px;
     background-color: #4CAF50;
     color: #fff;
