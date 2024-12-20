@@ -71,7 +71,12 @@ body, html {
 }
 
 .waitlist-container {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
     text-align: center;
+    justify_content: center;
     margin-top: 50px;
 }
 
