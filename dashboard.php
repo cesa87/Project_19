@@ -14,9 +14,6 @@ if(!isset($_SESSION['user_id'])){
     <link rel="stylesheet" href="dashboard-styles.css">
 </head>
 <body>
-    <div id="loginContainer">
-        <button id="loginButton">Login</button>
-    </div>
     <div id="walletSelection" style="display:none;">
         <button id="connectMetaMask">Connect MetaMask</button>
     </div>
