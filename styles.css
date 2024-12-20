@@ -85,13 +85,13 @@ body, html {
     margin-bottom: 20px;
 }
 
-#waitlist-form {
+.waitlist-form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#waitlist-form input, #waitlist-form textarea {
+.waitlist-form input, .waitlist-form textarea {
     width: 50%;
     padding: 10px;
     margin-bottom: 20px;
@@ -99,7 +99,7 @@ body, html {
     border-radius: 5px;
 }
 
-#waitlist-form button {
+.waitlist-form button {
     width: 50%;
     padding: 10px;
     background-color: #4CAF50;
@@ -109,6 +109,6 @@ body, html {
     cursor: pointer;
 }
 
-#waitlist-form button:hover {
+.waitlist-form button:hover {
     background-color: #3e8e41;
 }
